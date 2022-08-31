@@ -1,0 +1,30 @@
+.header{
+
+    background-color: $headercolor;
+
+    &__banner{
+        width: 100vw;
+    }
+    &__titulo{
+        font-family: $titulofont;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+    }
+    &__navbar ul{
+        display: flex;
+        flex-direction: row;
+        font-family: $textofont;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-around;
+        padding: 20px;
+        font-weight: bolder;
+        font-size: 30px;
+        margin: 0px;
+    }
+
+}
