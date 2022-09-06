@@ -12,6 +12,9 @@
           "main__container--txt2 main__container--txt2 main__container--img2 main__container--img2 main__container--img2"
           "main__container--img3 main__container--img3 main__container--img3 main__container--txt3 main__container--txt3"
           "main__container--img4 main__container--video main__container--video main__container--video main__container--img5";
+        &--txt{
+          @extend %estilo-parrafo;
+        }  
       }
       .main__container--img1 { grid-area: main__container--img1; }
       
@@ -30,5 +33,4 @@
       .main__container--img4 { grid-area: main__container--img4; }
       
       .main__container--img5 { grid-area: main__container--img5; }
-    }
-    
+    }    

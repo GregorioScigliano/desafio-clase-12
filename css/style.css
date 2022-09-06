@@ -5,14 +5,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-.main__container--txt {
-  background-color: black;
-  font-size: 30px;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  padding: 20px 10px 30px 10px; }
-
 .main__container--img {
   width: 100vh;
   height: 450px; }
@@ -20,6 +12,17 @@
 .main__container--imgF {
   width: 400px;
   height: 450px; }
+
+.main__container--txt {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 10px 30px 10px; }
+
+.header__navbar ul a {
+  text-decoration: none;
+  color: black; }
 
 .header {
   background-color: #ffa500; }
@@ -37,7 +40,6 @@
     display: flex;
     flex-direction: row;
     font-family: "Poppins", sans-serif;
-    text-decoration: none;
     list-style: none;
     justify-content: space-around;
     padding: 20px;
@@ -93,3 +95,15 @@
 .footer__ul--f {
   width: 50px;
   height: 50px; }
+
+.main-contacto__section1 {
+  background-color: yellow;
+  font-size: 40px;
+  text-align: center;
+  padding: 35px; }
+
+.main-contacto__section2 {
+  background-color: blue;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px; }

@@ -1,0 +1,10 @@
+.main-contacto{
+    &__section1{
+
+        @include difsec(yellow, 40px, 35px);
+      }
+      &__section2{
+
+        @include difsec(blue, 30px, 50px);
+      }
+}

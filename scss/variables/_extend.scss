@@ -1,0 +1,19 @@
+%estilo-parrafo{
+    font-family: $textofont;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 10px 30px 10px;
+}
+
+%navbar {
+    text-decoration: none;
+    color: black;
+}
+
+@mixin difsec ($color-f, $font-s, $padding) {
+    background-color: $color-f;
+    font-size: $font-s;
+    text-align: center;
+    padding: $padding;
+}
